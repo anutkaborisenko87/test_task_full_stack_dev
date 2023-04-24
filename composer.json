@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "testFullStackDev\\": ""
+        },
+        "files": [
+            "app/helpers/helpers.php",
+            "routes/routes.php"
+        ]
+    },
+    "require": {
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}
